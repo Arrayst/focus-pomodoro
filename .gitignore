@@ -1,0 +1,21 @@
+# 로컬 OS 파일
+.DS_Store
+
+# 비밀 및 로컬 환경 파일
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+local.properties
+
+# 로컬 개발 환경 점검 (개인 경로 포함)
+docs/local-environment.md
+
+# 인증 및 키 파일
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets/
